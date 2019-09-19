@@ -19,3 +19,5 @@ Imports:
     ggplot2
 Suggests: 
     testthat
+URL: https://github.com/jduckles/newpackage
+BugReports: https://github.com/jduckles/newpackage/issues
