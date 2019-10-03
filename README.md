@@ -1,6 +1,7 @@
 # newpackage
 
 <!-- badges: start -->
+[![Travis build status](https://travis-ci.org/jduckles/newpackage.svg?branch=master)](https://travis-ci.org/jduckles/newpackage)
 <!-- badges: end -->
 
 The goal of newpackage is to ...
