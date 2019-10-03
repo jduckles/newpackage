@@ -7,7 +7,9 @@
 give_me_y(x, n)
 }
 \arguments{
-\item{n}{}
+\item{x}{param x}
+
+\item{n}{param n}
 }
 \value{
 x * n
@@ -16,5 +18,5 @@ x * n
 Give eme y
 }
 \examples{
-giv_me_y(2,4)
+give_me_y(2,4)
 }

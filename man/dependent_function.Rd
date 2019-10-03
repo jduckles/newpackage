@@ -4,7 +4,7 @@
 \alias{dependent_function}
 \title{A filtering function for mtcars}
 \usage{
-dependent_function(x = mtcars, n_cyl = 4)
+dependent_function(x = datasets::mtcars, n_cyl = 4)
 }
 \arguments{
 \item{x}{- Actually mtcars}

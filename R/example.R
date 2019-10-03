@@ -1,7 +1,7 @@
 #' Example Function
 #'
-#' @param Parameter 1, does parameter like things
-#' @param Parameter 2, does other parameter like things
+#' @param param1  does parameter like things
+#' @param param2  does other parameter like things
 #'
 #' @return Always gives back the number 3
 #' @export
@@ -23,6 +23,15 @@ bigger_than_10 <- function(number) {
 }
 
 
+#' Check your condition. Ar you tired/nervous or both?
+#'
+#' @param tired are you tired?
+#' @param nervous are you nervous?
+#'
+#' @return advice
+#' @export
+#'
+#' @examples check_condition(tired=TRUE,nervous=TRUE)
 check_condition <- function(tired, nervous){
   if (!tired && nervous) {
     return("Drink a beer")
@@ -59,20 +68,21 @@ another_function <- function(param1) {
 #' @export
 #'
 #' @examples dependent_function(mtcars, 4)
-dependent_function <- function(x = mtcars, n_cyl = 4) {
-  x %>% dplyr::filter(cyl == n_cyl)
+dependent_function <- function(x = datasets::mtcars, n_cyl = 4) {
+
+  x %>% dplyr::filter(.data$cyl == n_cyl)
 }
 
 
 #' Give eme y
 #'
-#' @param x
-#' @param n
+#' @param x param x
+#' @param n param n
 #'
 #' @return x * n
 #' @export
 #'
-#' @examples giv_me_y(2,4)
+#' @examples give_me_y(2,4)
 give_me_y <- function(x,n) {
  y <- x*n
  y

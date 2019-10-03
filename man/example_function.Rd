@@ -7,9 +7,9 @@
 example_function(param1, param2)
 }
 \arguments{
-\item{Parameter}{1, does parameter like things}
+\item{param1}{does parameter like things}
 
-\item{Parameter}{2, does other parameter like things}
+\item{param2}{does other parameter like things}
 }
 \value{
 Always gives back the number 3
