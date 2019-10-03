@@ -11,6 +11,30 @@ example_function <- function(param1, param2) {
   3
 }
 
+bigger_than_10 <- function(number) {
+  if (number > 10) {
+    return(TRUE)
+  }
+  else {
+    return(FALSE)
+  }
+}
+
+
+check_condition <- function(tired, nervous){
+  if (!tired && nervous) {
+    return("Drink a beer")
+  }
+  else if (tired && nervous) {
+    return("Drink a glass of water")
+  }
+  else if (tired && !nervous) {
+   return("Take a deep breath")
+  }
+  else if (!tired && !nervous) {
+   return("I can't help you")
+  }
+}
 
 #' This is my other function
 #'
@@ -38,3 +62,16 @@ dependent_function <- function(x = mtcars, n_cyl = 4) {
 }
 
 
+#' Give eme y
+#'
+#' @param x
+#' @param n
+#'
+#' @return x * n
+#' @export
+#'
+#' @examples giv_me_y(2,4)
+give_me_y <- function(x,n) {
+ y <- x*n
+ y
+}
