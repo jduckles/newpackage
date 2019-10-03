@@ -16,8 +16,10 @@ bigger_than_10 <- function(number) {
     return(TRUE)
   }
   else {
+
     return(FALSE)
-  }
+
+    }
 }
 
 
